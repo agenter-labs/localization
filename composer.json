@@ -1,0 +1,28 @@
+{
+    "name": "agenter-labs/localization",
+    "description":"Localization package",
+    "keywords": [
+        "localization"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdulla",
+            "email": "dev@agenter.com",
+            "homepage": "https://agenter.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+    "psr-4": {
+            "AgenterLab\\Localization\\": "./src"
+        }
+    },
+    "prefer-stable": true
+}
